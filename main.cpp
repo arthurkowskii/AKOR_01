@@ -183,10 +183,11 @@ void initMapping(std::vector<int>& keyMap, octaveInput oct, int keyboardSize, sc
 int main(){
     // START OF VARIABLE DECLARATIONS | START OF VARIABLE DECLARATIONS
     int keyboardSize = 16;
-    octaveInput octave = OCTAVE_4;
+    octaveInput octave = OCTAVE_3;
     std::vector<int> keyMap(keyboardSize); // crétion du tableau ou chaque index correspond à une touche du clavier
-    int midiNote = keyMap[16];
+    int midiNote = keyMap[10];
     float frequency = noteToFrequency(midiNote);
+    std::cout << "Frequency: " << frequency << std::endl;
 
     float gain = 1;
 
