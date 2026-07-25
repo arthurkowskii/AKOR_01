@@ -13,6 +13,7 @@ enum waveShape {
 };
 
 enum octaveInput {
+    OCTAVE_0,
     OCTAVE_1,
     OCTAVE_2,
     OCTAVE_3,
@@ -159,7 +160,7 @@ void writeWaveform(uint32_t samplerate, std::vector<unsigned char>& audioData, f
     }
 }
 
-int noteToFrequency(int midiNote){
+float noteToFrequency(int midiNote){
     return 440.0f * pow(2.0f, (midiNote - 69) / 12.0f);
 }
 
