@@ -13,14 +13,14 @@ enum waveShape {
 };
 
 enum octaveInput {
-    OCTAVE_1 = 0,
-    OCTAVE_2 = 12,
-    OCTAVE_3 = 24,
-    OCTAVE_4 = 36,
-    OCTAVE_5 = 48,
-    OCTAVE_6 = 60,
-    OCTAVE_7 = 72,
-    OCTAVE_8 = 84,
+    OCTAVE_1,
+    OCTAVE_2,
+    OCTAVE_3,
+    OCTAVE_4,
+    OCTAVE_5,
+    OCTAVE_6,
+    OCTAVE_7,
+    OCTAVE_8,
 };
 
 enum scale {
@@ -185,7 +185,9 @@ int main(){
     int keyboardSize = 16;
     octaveInput octave = OCTAVE_3;
     std::vector<int> keyMap(keyboardSize); // crétion du tableau ou chaque index correspond à une touche du clavier
-    int midiNote = keyMap[10];
+    initMapping(keyMap, octave, keyMap.size(), CHROMATIC);
+    int midiNote = keyMap[15];
+    std::cout << "Midi Note: " << midiNote << std::endl;
     float frequency = noteToFrequency(midiNote);
     std::cout << "Frequency: " << frequency << std::endl;
 
@@ -205,7 +207,6 @@ int main(){
     // END OF VARIABLE DECLARATIONS | END OF VARIABLE DECLARATIONS
 
 
-    initMapping(keyMap, octave, keyMap.size(), CHROMATIC);
     writeWaveform(samplerate, audioData, frequency, bits, main, gain);
     wavMaker(channels, bits, samplerate, audioData);
 
