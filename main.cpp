@@ -102,175 +102,6 @@ void wavMaker(int channels, int bits, int sampleRate, const std::vector<unsigned
     outputWav.close();
 }
 
-// void writeWaveform(uint32_t samplerate, std::vector<unsigned char>& audioData, float frequency, unsigned bits, waveShape waveShape, float gain, float attack, float decay, float sustain, float release){
-//     const float pi = 3.14159265358979323846;
-//     const size_t bytesPerSample = bits / 8;
-//     const float phaseIncrement = frequency / samplerate;
-//     float phase = 0;
-//     unsigned int i;
-//     float PCMValue;
-//     float waveValue; // is determined in the switch case
-//     float envelope = 0.0f;
-//     float attackSlope = 1.0f / (attack * samplerate);
-//     float decaySlope = (1.0f - sustain) / (decay * samplerate);
-//     float releaseSlope = sustain / (release * samplerate);
-
-//     enum EnvStage { ATTACK, DECAY, SUSTAIN, RELEASE, DONE };
-//     EnvStage stage = ATTACK;
-
-//     switch (waveShape) {
-//         case waveShape::SINE:
-//             for (i = 0; i < audioData.size(); i+= bytesPerSample){
-//                 switch (stage) {
-//                     case ATTACK:
-//                         envelope += attackSlope;
-//                         if (envelope >= 1.0f){
-//                             envelope = 1.0f; stage = DECAY;
-//                         }
-//                         break;
-//                     case DECAY:
-//                         envelope -= decaySlope;
-//                         if (envelope <= sustain) { envelope = sustain; stage = SUSTAIN; }
-//                         break;
-//                     case SUSTAIN:
-//                         break;
-//                     case RELEASE:
-//                         envelope -= releaseSlope;
-//                         if (envelope <= 0.0f)  { envelope = 0.0f; stage = DONE; }
-//                         break;
-//                     case DONE:
-//                         envelope = 0.0f;
-//                         break;
-//                 }
-//                 waveValue = gain * (sin(2 * pi * phase)) * envelope;
-//                 PCMValue = floatToPCMConverter(waveValue, bits);
-//                 writingBits(&audioData[i], static_cast<uint32_t>(PCMValue), bits);
-//                 phase += phaseIncrement;
-//                 if (phase >= 1.0f){
-//                     phase -= 1.0f;
-//                 }
-//             }
-//             break;
-//         case waveShape::SQUARE:
-//             for (i = 0; i < audioData.size(); i+= bytesPerSample){
-//                 switch (stage){
-//                     case ATTACK:
-//                         envelope += attackSlope;
-//                         if (envelope >= 1.0f) {envelope = 1.0f; stage = DECAY;}
-//                         break;
-//                     case DECAY:
-//                         envelope -= decaySlope;
-//                         if (envelope <= sustain) {envelope = sustain; stage = SUSTAIN;}
-//                         break;
-//                     case SUSTAIN:
-//                         if (envelope <= sustain) {envelope = sustain; stage = SUSTAIN;}
-//                         // add midi event to switch to RELEASE STAGE
-//                         break;
-//                     case RELEASE:
-//                         envelope -= releaseSlope;
-//                         if (envelope <= 0.0f) {envelope = 0.0f; stage = DONE;}
-//                         break;
-//                     case DONE:
-//                         envelope = 0.0f;
-//                         break;
-//                 }
-//                 waveValue = gain * ((phase < 0.5f) ? 1.0f : -1.0f);
-//                 PCMValue = floatToPCMConverter(waveValue, bits);
-//                 writingBits(&audioData[i], static_cast<uint32_t>(PCMValue), bits);
-//                 phase += phaseIncrement;
-//                 if (phase >= 1.0f){
-//                     phase -= 1.0f;
-//                 }
-//             }
-//             break;
-//         case waveShape::TRIANGLE:
-//             for (i = 0; i < audioData.size(); i+= bytesPerSample){
-//                 switch (stage){
-//                     case ATTACK:
-//                         envelope += attackSlope;
-//                         if (envelope >= 1.0f){
-//                             envelope = 1.0f;
-//                             stage = DECAY;
-//                         }
-//                         break;
-//                     case DECAY:
-//                         envelope -= decaySlope;
-//                         if (envelope <= sustain){
-//                             envelope = sustain;
-//                             stage = SUSTAIN;
-//                         }
-//                         break;
-//                     case SUSTAIN:
-//                         if (envelope <= sustain){
-//                             envelope = sustain;
-//                             stage = SUSTAIN;
-//                         }
-//                         break;
-//                     case RELEASE:
-//                         envelope -= releaseSlope;
-//                         if (envelope <= 0.0f){
-//                             envelope = 0.0f;
-//                             stage = DONE;
-//                         }
-//                         break;
-//                     case DONE:
-//                         envelope = 0.0f;
-//                         break;
-//                 }
-//                 waveValue = gain * (1.0f - 4.0f * fabs(phase - 0.5f));
-//                 PCMValue = floatToPCMConverter(waveValue, bits);
-//                 writingBits(&audioData[i], static_cast<uint32_t>(PCMValue), bits);
-//                 phase += phaseIncrement;
-//                 if (phase >= 1.0f){
-//                     phase -= 1.0f;
-//                 }
-//             }
-//             break;
-//         case waveShape::SAWTOOTH:
-//             for (i=0; i < audioData.size(); i += bytesPerSample){
-//                 switch (stage){
-//                     case ATTACK:
-//                         envelope += attackSlope;
-//                         if (envelope >= 1.0f){
-//                             envelope = 1.0f;
-//                             stage = DECAY;
-//                         }
-//                         break;
-//                     case DECAY:
-//                         envelope -= decaySlope;
-//                         if (envelope <= sustain){
-//                             envelope = sustain;
-//                             stage = SUSTAIN;
-//                         }
-//                         break;
-//                     case SUSTAIN:
-//                         if (envelope <= sustain){
-//                             envelope = sustain;
-//                             stage = SUSTAIN;
-//                         }
-//                         break;
-//                     case RELEASE:
-//                         envelope -= releaseSlope;
-//                         if (envelope <= 0.0f){
-//                             envelope = 0.0f;
-//                             stage = DONE;
-//                         }
-//                         break;
-//                     case DONE:
-//                         envelope = 0.0f;
-//                         break;
-//                 }
-//                 waveValue = gain * (2.0f * phase - 1.0f);
-//                  PCMValue = floatToPCMConverter(waveValue, bits);
-//                  writingBits(&audioData[i], static_cast<uint32_t>(PCMValue), bits);
-//                  phase += phaseIncrement;
-//                  if (phase >= 1.0f){
-//                     phase -= 1.0f;
-//                  }
-//             }
-//         break;
-//     }
-// }
 void writeWaveform(uint32_t samplerate, std::vector<unsigned char>& audioData, float frequency, unsigned bits, waveShape waveShape, float gain, float attack, float decay, float sustain, float release){
     const float pi = 3.14159265358979323846;
     const size_t bytesPerSample = bits / 8;
@@ -317,10 +148,26 @@ void writeWaveform(uint32_t samplerate, std::vector<unsigned char>& audioData, f
                 break;
         }
         switch (waveShape){
-            case SINE: waveValue = gain * envelope * sin(2.0f * pi * phase); break;
-            case SQUARE: waveValue = gain * envelope * (phase < 0.5f ? -1.0f : 1.0f); break;
-            case TRIANGLE: waveValue = gain * envelope * (2.0f * phase - 1.0f); break;
-            case SAWTOOTH: waveValue = gain * envelope * (2.0f * phase - 1.0f); break;
+            case SINE:
+                waveValue = gain * envelope * sin(2.0f * pi * phase);
+                if (waveValue > 1.0f) waveValue = 1.0f;
+                if (waveValue < -1.0f) waveValue = -1.0f;
+                break;
+            case SQUARE:
+                waveValue = gain * envelope * (phase < 0.5f ? -1.0f : 1.0f);
+                if (waveValue > 1.0f) waveValue = 1.0f;
+                if (waveValue < -1.0f) waveValue = -1.0f;
+                break;
+            case TRIANGLE:
+                waveValue = gain * (1.0f - 4.0f * fabs(phase - 0.5f));
+                if (waveValue > 1.0f) waveValue = 1.0f;
+                if (waveValue < -1.0f) waveValue = -1.0f;
+                break;
+            case SAWTOOTH:
+                waveValue = gain * envelope * (2.0f * phase - 1.0f);
+                if (waveValue > 1.0f) waveValue = 1.0f;
+                if (waveValue < -1.0f) waveValue = -1.0f;
+                break;
         }
         PCMValue = floatToPCMConverter(waveValue, bits);
         writingBits(&audioData[i], static_cast<uint32_t>(PCMValue), bits);
