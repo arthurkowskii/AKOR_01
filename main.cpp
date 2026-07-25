@@ -102,20 +102,45 @@ void wavMaker(int channels, int bits, int sampleRate, const std::vector<unsigned
     outputWav.close();
 }
 
-void writeWaveform(uint32_t samplerate, std::vector<unsigned char>& audioData, float frequency, unsigned bits, waveShape waveShape, float gain){
+void writeWaveform(uint32_t samplerate, std::vector<unsigned char>& audioData, float frequency, unsigned bits, waveShape waveShape, float gain, float attack, float decay, float sustain, float release){
     const float pi = 3.14159265358979323846;
     const size_t bytesPerSample = bits / 8;
     const float phaseIncrement = frequency / samplerate;
     float phase = 0;
     unsigned int i;
     float PCMValue;
-
     float waveValue; // is determined in the switch case
+    float envelope = 0.0f;
+    float attackSlope = 1.0f / (attack * samplerate);
+    float decaySlope = (1.0f - sustain) / (decay * samplerate);
+    float releaseSlope = sustain / (release * samplerate);
+
+    enum EnvStage { ATTACK, DECAY, SUSTAIN, RELEASE, DONE };
+    EnvStage stage = ATTACK;
 
     switch (waveShape) {
         case waveShape::SINE:
             for (i = 0; i < audioData.size(); i+= bytesPerSample){
-                waveValue = gain * (sin(2 * pi * phase));
+                switch (stage) {
+                    case ATTACK:
+                        envelope += attackSlope;
+                        if (envelope >= 1.0f)  { envelope = 1.0f; stage = DECAY; }
+                        break;
+                    case DECAY:
+                        envelope -= decaySlope;
+                        if (envelope <= sustain) { envelope = sustain; stage = SUSTAIN; }
+                        break;
+                    case SUSTAIN:
+                        break;
+                    case RELEASE:
+                        envelope -= releaseSlope;
+                        if (envelope <= 0.0f)  { envelope = 0.0f; stage = DONE; }
+                        break;
+                    case DONE:
+                        envelope = 0.0f;
+                        break;
+                }
+                waveValue = gain * (sin(2 * pi * phase)) * envelope;
                 PCMValue = floatToPCMConverter(waveValue, bits);
                 writingBits(&audioData[i], static_cast<uint32_t>(PCMValue), bits);
                 phase += phaseIncrement;
@@ -197,18 +222,18 @@ int main(){
     uint32_t samplerate = 48000;
     uint16_t channels = 1;
     uint16_t bits = 16;
-    uint32_t durationSeconds = 2;
+    uint32_t durationSeconds = 10;
     uint32_t frames = durationSeconds * samplerate;
     uint32_t dataSize = frames * channels * (bits / 8);
 
-    waveShape main = SAWTOOTH;
+    waveShape main = SINE;
 
     std::vector<unsigned char> audioData(dataSize); // création du tableau DATASIZE
 
     // END OF VARIABLE DECLARATIONS | END OF VARIABLE DECLARATIONS
 
 
-    writeWaveform(samplerate, audioData, frequency, bits, main, gain);
+    writeWaveform(samplerate, audioData, frequency, bits, main, gain, 1, 1, 0.2f, 1);
     wavMaker(channels, bits, samplerate, audioData);
 
     return 0;
