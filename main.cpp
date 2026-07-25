@@ -183,7 +183,10 @@ void initMapping(std::vector<int>& keyMap, octaveInput oct, int keyboardSize, sc
 int main(){
     // START OF VARIABLE DECLARATIONS | START OF VARIABLE DECLARATIONS
     int keyboardSize = 16;
-    float frequency = noteToFrequency(midiNote, octave);
+    octaveInput octave = OCTAVE_4;
+    std::vector<int> keyMap(keyboardSize); // crétion du tableau ou chaque index correspond à une touche du clavier
+    int midiNote = keyMap[16];
+    float frequency = noteToFrequency(midiNote);
 
     float gain = 1;
 
@@ -195,15 +198,10 @@ int main(){
     uint32_t dataSize = frames * channels * (bits / 8);
 
     waveShape main = SAWTOOTH;
-    octaveInput octave = OCTAVE_4;
-
 
     std::vector<unsigned char> audioData(dataSize); // création du tableau DATASIZE
-    std::vector<int> keyMap(keyboardSize); // crétion du tableau ou chaque index correspond à une touche du clavier
-    int midiNote = keyMap[16];
 
     // END OF VARIABLE DECLARATIONS | END OF VARIABLE DECLARATIONS
-
 
 
     initMapping(keyMap, octave, keyMap.size(), CHROMATIC);
