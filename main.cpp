@@ -150,28 +150,21 @@ void writeWaveform(uint32_t samplerate, std::vector<unsigned char>& audioData, f
         switch (waveShape){
             case SINE:
                 waveValue = gain * envelope * sin(2.0f * pi * phase);
-                if (waveValue > 1.0f) waveValue = 1.0f;
-                if (waveValue < -1.0f) waveValue = -1.0f;
                 break;
             case SQUARE:
                 waveValue = gain * envelope * (phase < 0.5f ? -1.0f : 1.0f);
-                if (waveValue > 1.0f) waveValue = 1.0f;
-                if (waveValue < -1.0f) waveValue = -1.0f;
                 break;
             case TRIANGLE:
-                waveValue = gain * (1.0f - 4.0f * fabs(phase - 0.5f));
-                if (waveValue > 1.0f) waveValue = 1.0f;
-                if (waveValue < -1.0f) waveValue = -1.0f;
+                waveValue = gain * envelope * (1.0f - 4.0f * fabs(phase - 0.5f));
                 break;
             case SAWTOOTH:
                 waveValue = gain * envelope * (2.0f * phase - 1.0f);
-                if (waveValue > 1.0f) waveValue = 1.0f;
-                if (waveValue < -1.0f) waveValue = -1.0f;
                 break;
         }
         PCMValue = floatToPCMConverter(waveValue, bits);
         writingBits(&audioData[i], static_cast<uint32_t>(PCMValue), bits);
         phase += phaseIncrement;
+        if (phase >= 1.0f) phase -= 1.0f;
     }
 }
 
