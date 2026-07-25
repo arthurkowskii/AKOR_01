@@ -228,12 +228,17 @@ int main(){
 
     waveShape main = SINE;
 
+    float attack = 1.0f;
+    float decay = 0.1f;
+    float sustain = 0.5f;
+    float release = 0.1f;
+
     std::vector<unsigned char> audioData(dataSize); // création du tableau DATASIZE
 
     // END OF VARIABLE DECLARATIONS | END OF VARIABLE DECLARATIONS
 
 
-    writeWaveform(samplerate, audioData, frequency, bits, main, gain, 1, 1, 0.2f, 1);
+    writeWaveform(samplerate, audioData, frequency, bits, main, gain, attack, decay, sustain, release);
     wavMaker(channels, bits, samplerate, audioData);
 
     return 0;
