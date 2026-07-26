@@ -1,5 +1,5 @@
 #include <string>
-
+#include <iostream>
 
 enum class tonic { C, D, E, F, G, A, B };
 enum class layout { SCALED, CHROMATIC };
@@ -55,6 +55,7 @@ int main(){
     chordShape pressedChord = chordShape::SIXTH;
 
     pressingChord(actualState, pressedChord);
+    std::cout << "actual chord shape is : " << chordShapeToString(pressedChord);
 
 
     return 0;
