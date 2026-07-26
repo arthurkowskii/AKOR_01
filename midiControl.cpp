@@ -56,23 +56,23 @@ std::string chordShapeToString(chordShape chord){
 std::string octaveInputToString(octaveInput octave){
     switch (octave) {
         case octaveInput::OCTAVE_0:
-            return "OCT_0";
+            return "0";
         case octaveInput::OCTAVE_1:
-            return "OCT_1";
+            return "1";
         case octaveInput::OCTAVE_2:
-            return "OCT_2";
+            return "2";
         case octaveInput::OCTAVE_3:
-            return "OCT_3";
+            return "3";
         case octaveInput::OCTAVE_4:
-            return "OCT_4";
+            return "4";
         case octaveInput::OCTAVE_5:
-            return "OCT_5";
+            return "5";
         case octaveInput::OCTAVE_6:
-            return "OCT_6";
+            return "6";
         case octaveInput::OCTAVE_7:
-            return "OCT_7";
+            return "7";
         case octaveInput::OCTAVE_8:
-            return "OCT_8";
+            return "8";
         default:
             return "UNKNOWN";
     }
