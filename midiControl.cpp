@@ -22,7 +22,14 @@ struct musicalType{
 int main(){
 
     musicalType actualState;
+
     actualState.actualChordShape = chordShape::SIXTH;
+
+    if (actualState.actualChordShape == chordShape::SIXTH){
+        actualState.actualChordShape = chordShape::OFF;
+    }else {
+        actualState.actualChordShape = chordShape::SIXTH;
+    }
 
 
     return 0;
