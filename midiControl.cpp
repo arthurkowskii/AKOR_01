@@ -12,11 +12,11 @@ enum class chordVoicing { FIRST, SECOND, THIRD };
 enum class shiftState { ON, OFF };
 
 struct musicalType{
-    tonic actualTonic = F;
-    layout actualLayout = SCALED;
-    scaleType actualScale = MINOR;
-    chordShape actualChord = TRI;
-    chordVoicing actualVoicing = FIRST;
+    tonic actualTonic = tonic::F;
+    layout actualLayout = layout::SCALED;
+    scaleType actualScale = scaleType::MINOR;
+    chordShape actualChord = chordShape::TRI;
+    chordVoicing actualVoicing = chordVoicing::FIRST;
 };
 
 int main(){
