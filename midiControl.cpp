@@ -19,17 +19,20 @@ struct musicalType{
     chordVoicing actualChordVoicing = chordVoicing::FIRST;
 };
 
+void pressingChord(musicalType& state, chordShape pressedChord){
+    if (pressedChord == state.actualChordShape){
+        state.actualChordShape = chordShape::OFF;
+    }else {
+        state.actualChordShape = pressedChord;
+    }
+}
+
 int main(){
 
     musicalType actualState;
+    chordShape pressedChord = chordShape::SIXTH;
 
-    actualState.actualChordShape = chordShape::SIXTH;
-
-    if (actualState.actualChordShape == chordShape::SIXTH){
-        actualState.actualChordShape = chordShape::OFF;
-    }else {
-        actualState.actualChordShape = chordShape::SIXTH;
-    }
+    pressingChord(actualState, pressedChord);
 
 
     return 0;
