@@ -7,6 +7,9 @@ enum class scaleType { MAJOR, MINOR };
 enum class chordShape { OFF, SUS2, TRI, SUS4, SIXTH, SEVENTH, NINTH, ELEVENTH, THIRTEENTH };
 enum class chordVoicing { FIRST, SECOND, THIRD };
 enum class shiftState { ON, OFF };
+enum octaveInput { OCTAVE_0 = 1, OCTAVE_1 = 2, OCTAVE_2 = 3, OCTAVE_3 = 4,
+    OCTAVE_4 = 5, OCTAVE_5 = 6, OCTAVE_6 = 7, OCTAVE_7 = 8, OCTAVE_8 = 9,
+};
 
 struct musicalType{
     tonic actualTonic = tonic::F;
@@ -14,6 +17,7 @@ struct musicalType{
     scaleType actualScaleType = scaleType::MINOR;
     chordShape actualChordShape = chordShape::OFF;
     chordVoicing actualChordVoicing = chordVoicing::FIRST;
+    octaveInput actualOctaveInput = octaveInput::OCTAVE_3;
 };
 
 void pressingChord(musicalType& state, chordShape pressedChord){
@@ -53,9 +57,11 @@ int main(){
 
     musicalType actualState;
     chordShape pressedChord = chordShape::SIXTH;
+    octaveInput octave = octaveInput::OCTAVE_3;
 
     pressingChord(actualState, pressedChord);
     std::cout << "actual chord shape is : " << chordShapeToString(pressedChord) << "\n";
+    std::cout << "actual octave input is : " << static_cast<int>(octave) << "\n";
 
 
     return 0;
