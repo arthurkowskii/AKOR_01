@@ -53,15 +53,39 @@ std::string chordShapeToString(chordShape chord){
     }
 }
 
+std::string octaveInputToString(octaveInput octave){
+    switch (octave) {
+        case octaveInput::OCTAVE_0:
+            return "OCT_0";
+        case octaveInput::OCTAVE_1:
+            return "OCT_1";
+        case octaveInput::OCTAVE_2:
+            return "OCT_2";
+        case octaveInput::OCTAVE_3:
+            return "OCT_3";
+        case octaveInput::OCTAVE_4:
+            return "OCT_4";
+        case octaveInput::OCTAVE_5:
+            return "OCT_5";
+        case octaveInput::OCTAVE_6:
+            return "OCT_6";
+        case octaveInput::OCTAVE_7:
+            return "OCT_7";
+        case octaveInput::OCTAVE_8:
+            return "OCT_8";
+        default:
+            return "UNKNOWN";
+    }
+}
+
 int main(){
 
     musicalType actualState;
     chordShape pressedChord = chordShape::SIXTH;
-    octaveInput octave = octaveInput::OCTAVE_3;
 
     pressingChord(actualState, pressedChord);
-    std::cout << "actual chord shape is : " << chordShapeToString(pressedChord) << "\n";
-    std::cout << "actual octave input is : " << static_cast<int>(octave) << "\n";
+    std::cout << "actual chord shape is : " << chordShapeToString(actualState.actualChordShape) << "\n";
+    std::cout << "actual octave input is : " << octaveInputToString(actualState.actualOctaveInput) << "\n";
 
 
     return 0;
