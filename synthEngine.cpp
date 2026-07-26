@@ -3,7 +3,6 @@
 #include <vector>
 #include <cstdint>
 #include <cmath>
-#include <stdexcept>
 
 enum waveShape {
     SINE,
