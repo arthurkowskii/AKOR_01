@@ -55,7 +55,7 @@ int main(){
     chordShape pressedChord = chordShape::SIXTH;
 
     pressingChord(actualState, pressedChord);
-    std::cout << "actual chord shape is : " << chordShapeToString(pressedChord);
+    std::cout << "actual chord shape is : " << chordShapeToString(pressedChord) << "\n";
 
 
     return 0;
