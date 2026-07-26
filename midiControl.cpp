@@ -1,8 +1,5 @@
-#include <iostream>
-#include <fstream>
-#include <vector>
-#include <cstdint>
-#include <cmath>
+#include <string>
+
 
 enum class tonic { C, D, E, F, G, A, B };
 enum class layout { SCALED, CHROMATIC };
@@ -24,6 +21,31 @@ void pressingChord(musicalType& state, chordShape pressedChord){
         state.actualChordShape = chordShape::OFF;
     }else {
         state.actualChordShape = pressedChord;
+    }
+}
+
+std::string chordShapeToString(chordShape chord){
+    switch (chord) {
+        case chordShape::OFF:
+            return "OFF";
+        case chordShape::SUS2:
+            return "SUS2";
+        case chordShape::TRI:
+            return "TRI";
+        case chordShape::SUS4:
+            return "SUS4";
+        case chordShape::SIXTH:
+            return "SIXTH";
+        case chordShape::SEVENTH:
+            return "SEVENTH";
+        case chordShape::NINTH:
+            return "NINTH";
+        case chordShape::ELEVENTH:
+            return "ELEVENTH";
+        case chordShape::THIRTEENTH:
+            return "THIRTEENTH";
+        default:
+            return "UNKNOWN";
     }
 }
 

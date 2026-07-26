@@ -4,42 +4,17 @@
 #include <cstdint>
 #include <cmath>
 
-enum waveShape {
-    SINE,
-    SQUARE,
-    TRIANGLE,
-    SAWTOOTH
+enum waveShape { SINE, SQUARE, TRIANGLE, SAWTOOTH };
+
+enum octaveInput { OCTAVE_0 = 1, OCTAVE_1 = 2, OCTAVE_2 = 3, OCTAVE_3 = 4,
+    OCTAVE_4 = 5, OCTAVE_5 = 6, OCTAVE_6 = 7, OCTAVE_7 = 8, OCTAVE_8 = 9,
 };
 
-enum octaveInput {
-    OCTAVE_0 = 1,
-    OCTAVE_1 = 2,
-    OCTAVE_2 = 3,
-    OCTAVE_3 = 4,
-    OCTAVE_4 = 5,
-    OCTAVE_5 = 6,
-    OCTAVE_6 = 7,
-    OCTAVE_7 = 8,
-    OCTAVE_8 = 9,
-};
+enum scale { CHROMATIC, MAJOR, MINOR };
 
-enum scale {
-    CHROMATIC,
-    MAJOR,
-    MINOR
-};
+void create16bit_char(unsigned char* buffer, std::string str){ buffer[0] = str[0]; buffer[1] = str[1]; }
 
-void create16bit_char(unsigned char* buffer, std::string str){ // little endian 16bits char writing
-    buffer[0] = str[0];
-    buffer[1] = str[1];
-}
-
-void create32bit_char (unsigned char* buffer, std::string str){ // little endian 32bits char writing
-    buffer[0] = str[0];
-    buffer[1] = str[1];
-    buffer[2] = str[2];
-    buffer[3] = str[3];
-}
+void create32bit_char(unsigned char* buffer, std::string str){ buffer[0] = str[0]; buffer[1] = str[1]; buffer[2] = str[2]; buffer[3] = str[3]; }
 
 void create16bit_Int(unsigned char* buffer, uint16_t value){ // little endian 16bits int writing
     buffer[0] = static_cast<unsigned char>(value & 0xFF);
