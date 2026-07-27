@@ -3014,6 +3014,12 @@
 		(uuid "d205de77-ae08-479a-ba64-531b2e64136d")
 	)
 	(junction
+		(at 132.08 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ea52d8fe-b260-401e-84d8-f4d6aeef6843")
+	)
+	(junction
 		(at 152.4 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3271,7 +3277,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 76.2) (xy 157.48 76.2)
+			(xy 106.68 76.2) (xy 132.08 76.2)
 		)
 		(stroke
 			(width 0)
@@ -3568,6 +3574,16 @@
 			(type default)
 		)
 		(uuid "ee150c7a-98cc-4f92-932f-ffa2ab0d6c77")
+	)
+	(wire
+		(pts
+			(xy 132.08 76.2) (xy 157.48 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f14685ac-41a0-4fa8-863a-bdd08adc5036")
 	)
 	(wire
 		(pts
@@ -8032,7 +8048,7 @@
 	)
 	(symbol
 		(lib_id "Device:D")
-		(at 132.08 72.5103 90)
+		(at 132.08 72.39 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8043,7 +8059,7 @@
 		(fields_autoplaced yes)
 		(uuid "e6513218-a450-47e7-853e-eab8fb81259e")
 		(property "Reference" "D15"
-			(at 134.62 71.2402 90)
+			(at 134.62 71.1199 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8054,7 +8070,7 @@
 			)
 		)
 		(property "Value" "D"
-			(at 134.62 73.7802 90)
+			(at 134.62 73.6599 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8065,7 +8081,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 132.08 72.5103 0)
+			(at 132.08 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8076,7 +8092,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 132.08 72.5103 0)
+			(at 132.08 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8087,7 +8103,7 @@
 			)
 		)
 		(property "Description" "Diode"
-			(at 132.08 72.5103 0)
+			(at 132.08 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8098,7 +8114,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 132.08 72.5103 0)
+			(at 132.08 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8109,7 +8125,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 132.08 72.5103 0)
+			(at 132.08 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
