@@ -4,7 +4,7 @@ SYNTH_01 is an ongoing project to design and build a compact hardware instrument
 
 ![SYNTH_01 hardware concept](SYNTH_01_UPDATE.webp)_01 hardware concept](SYNTH_01.webp)
 
-The image above is the current hardware concept: a 4 x 4 performance grid, dedicated chord controls, three encoders for scale, voicing, and tempo, plus an OLED display for the current musical state.
+The image above is the current hardware concept: a 4 x 5  performance grid, dedicated chord controls, seven encoders for scale, voicing, tempo... plus an OLED display for the current musical state.
 
 ## Current state
 
