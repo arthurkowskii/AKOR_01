@@ -5223,6 +5223,168 @@
 		)
 	)
 	(symbol
+		(lib_id "Interface_Expansion:MCP23017x-x-SP")
+		(at 255.27 119.38 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5597d8e6-1f85-4734-a62e-9adb157f2ad4")
+		(property "Reference" "U2"
+			(at 257.4133 91.44 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MCP23017-E/SP"
+			(at 257.4133 93.98 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_DIP:DIP-28_W7.62mm"
+			(at 260.35 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "https://ww1.microchip.com/downloads/aemDocuments/documents/APID/ProductDocuments/DataSheets/MCP23017-Data-Sheet-DS20001952.pdf"
+			(at 260.35 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "16-bit I/O expander, I2C, interrupts, w pull-ups, SPDIP-28"
+			(at 255.27 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "17"
+			(uuid "4ece6050-093f-4b5f-bee3-3650cfcb24ce")
+		)
+		(pin "13"
+			(uuid "2445402f-03e0-4545-8ba8-1ebd54f05878")
+		)
+		(pin "26"
+			(uuid "6965e8a8-f137-4e01-a493-0d48609582e0")
+		)
+		(pin "20"
+			(uuid "de9daaf4-5527-4cbc-865c-0600698445e0")
+		)
+		(pin "24"
+			(uuid "f0ec5f5d-7977-4966-93e5-2bc143093a19")
+		)
+		(pin "4"
+			(uuid "6c08e0c1-8c56-4d5c-a916-11bc311c803e")
+		)
+		(pin "2"
+			(uuid "490e69c2-ea43-4c56-bb11-c0bac69229b0")
+		)
+		(pin "1"
+			(uuid "5f72921a-f61d-4c64-9e57-99d7dfa86571")
+		)
+		(pin "8"
+			(uuid "7456b2d5-b7e2-4168-af05-6222cd5853c3")
+		)
+		(pin "10"
+			(uuid "bf55b881-ece0-45ff-8086-dff11ceac293")
+		)
+		(pin "11"
+			(uuid "6f6111df-4f78-4612-a538-1ed4cbc0d131")
+		)
+		(pin "7"
+			(uuid "3cc27173-ee52-406b-bb12-793c763b731a")
+		)
+		(pin "6"
+			(uuid "9e2ddf7c-41ae-40f4-afa3-310991520250")
+		)
+		(pin "9"
+			(uuid "86cfdaab-3c42-4466-9d12-20ab0cc6eb9f")
+		)
+		(pin "12"
+			(uuid "251d07d1-52ed-48a0-9b53-7a3eb58671af")
+		)
+		(pin "18"
+			(uuid "535d8fa6-4ba0-4d83-a096-7ebd76f64fb1")
+		)
+		(pin "5"
+			(uuid "fb29de0c-1781-41ad-a8dc-8795059193fc")
+		)
+		(pin "22"
+			(uuid "1870f0db-6469-4c45-9e82-bd02a655315e")
+		)
+		(pin "23"
+			(uuid "524d9a05-cc66-4c76-b12e-7904316a051f")
+		)
+		(pin "25"
+			(uuid "a129d829-baf9-4e18-8bc2-f3688b229736")
+		)
+		(pin "14"
+			(uuid "fc55410d-a507-49f3-8abd-18285e2b6496")
+		)
+		(pin "15"
+			(uuid "2bf37e85-0145-4563-8c54-2134534bfe9d")
+		)
+		(pin "16"
+			(uuid "ed5c6496-0178-4088-8ff3-9d2dc72c388e")
+		)
+		(pin "3"
+			(uuid "12e7f01e-5997-4d58-bf17-c2a8b50d0a93")
+		)
+		(pin "19"
+			(uuid "5766828d-625a-4bc8-95fc-b40ce3fb561d")
+		)
+		(pin "21"
+			(uuid "e2f6ce29-e024-43a1-aaab-f83d962403d0")
+		)
+		(pin "27"
+			(uuid "68c0e1ac-1e22-47c0-99bf-cb797ebb0f4a")
+		)
+		(pin "28"
+			(uuid "8f19632c-6988-4063-a70d-63c81f597214")
+		)
+		(instances
+			(project "SYNTH_01"
+				(path "/8736209f-7c7b-4c76-92ee-96040748110a"
+					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Switch:SW_Push_45deg")
 		(at 82.55 109.22 0)
 		(unit 1)
