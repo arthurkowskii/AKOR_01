@@ -8,6 +8,269 @@
 		(title "SYNTH_01_SCH")
 	)
 	(lib_symbols
+		(symbol "Connector:Conn_01x04_Pin"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x04_Pin"
+				(at 0 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x04, script generated"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Conn_01x04_Pin_1_1"
+				(rectangle
+					(start 0.8636 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 -4.953)
+					(end 0 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 2.54) (xy 0.8636 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 0.8636 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 0.8636 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -5.08) (xy 0.8636 -5.08)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -5.08 180)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector_Generic:Conn_02x20_Odd_Even"
 			(pin_names
 				(offset 1.016)
@@ -4967,6 +5230,16 @@
 	)
 	(wire
 		(pts
+			(xy 208.28 41.91) (xy 213.36 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de9a50ff-35b7-468a-99b7-66c6eb0782a5")
+	)
+	(wire
+		(pts
 			(xy 54.61 132.08) (xy 54.61 157.48)
 		)
 		(stroke
@@ -5014,6 +5287,16 @@
 			(type default)
 		)
 		(uuid "ea87fb23-0abe-4a19-84ba-3a0def4b15ee")
+	)
+	(wire
+		(pts
+			(xy 213.36 39.37) (xy 208.28 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec336e95-c518-4a98-9b8b-e44cfbbfaa58")
 	)
 	(wire
 		(pts
@@ -5429,6 +5712,16 @@
 			(justify left bottom)
 		)
 		(uuid "2f8a7275-5543-4722-902b-6b6fd9e89e81")
+	)
+	(label "SCL"
+		(at 213.36 39.37 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2fd113cf-4d84-4620-b8d5-4b8aab2de7c1")
 	)
 	(label "INT_U1"
 		(at 153.67 38.1 0)
@@ -5989,6 +6282,16 @@
 			(justify left bottom)
 		)
 		(uuid "f0ccee4a-783b-4b14-85cb-a2d780b74f7a")
+	)
+	(label "SDA"
+		(at 213.36 41.91 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f360fa10-816b-4cc9-9160-58f06c68ebe4")
 	)
 	(label "ROW4"
 		(at 271.78 48.26 0)
@@ -9131,6 +9434,92 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_01x04_Pin")
+		(at 203.2 36.83 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7cfb719a-e752-4b84-a6dc-976260e1422c")
+		(property "Reference" "J2"
+			(at 203.835 29.21 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x04_Pin"
+			(at 203.835 31.75 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 203.2 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 203.2 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x04, script generated"
+			(at 203.2 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "6324c354-ff19-4475-8d04-2c54849b6022")
+		)
+		(pin "1"
+			(uuid "63abcfb3-4e98-4d43-9981-098d76ee0b5b")
+		)
+		(pin "4"
+			(uuid "8389a2e9-96dc-4784-943a-b10d8231942f")
+		)
+		(pin "3"
+			(uuid "cffcb913-a81d-4952-baa9-655f86cc6166")
+		)
+		(instances
+			(project "SYNTH_01"
+				(path "/8736209f-7c7b-4c76-92ee-96040748110a"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Switch:SW_Push_45deg")
 		(at 107.95 160.02 0)
 		(unit 1)
@@ -11164,6 +11553,85 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 208.28 34.29 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b10f9489-0f84-43fb-8e2c-ed59977cb81e")
+		(property "Reference" "#PWR023"
+			(at 214.63 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 212.09 34.2899 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 208.28 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 208.28 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 208.28 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7f751d1e-d0f9-4721-8281-b165ec1a2f63")
+		)
+		(instances
+			(project "SYNTH_01"
+				(path "/8736209f-7c7b-4c76-92ee-96040748110a"
+					(reference "#PWR023")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3V3")
 		(at 162.56 30.48 90)
 		(unit 1)
@@ -12857,6 +13325,85 @@
 			(project "SYNTH_01"
 				(path "/8736209f-7c7b-4c76-92ee-96040748110a"
 					(reference "D8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 208.28 36.83 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f4915499-5cd0-46da-ad5c-cbec2b020972")
+		(property "Reference" "#PWR024"
+			(at 204.47 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 212.09 36.8299 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 208.28 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 208.28 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 208.28 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4f03279c-c25b-401b-be82-22b3ccdc96f1")
+		)
+		(instances
+			(project "SYNTH_01"
+				(path "/8736209f-7c7b-4c76-92ee-96040748110a"
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
