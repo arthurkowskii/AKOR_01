@@ -8294,7 +8294,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6e5d7b8a-2bd2-4fbd-82a7-a337e9aa0446")
-		(property "Reference" "SWENC3"
+		(property "Reference" "ENC3"
 			(at 38.1 82.55 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8365,7 +8365,7 @@
 		(instances
 			(project "SYNTH_01"
 				(path "/8736209f-7c7b-4c76-92ee-96040748110a"
-					(reference "SWENC3")
+					(reference "ENC3")
 					(unit 1)
 				)
 			)
