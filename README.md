@@ -2,9 +2,13 @@
 
 SYNTH_01 is an ongoing project to design and build a compact hardware instrument for creating notes, chords, and simple sequences.
 
-![SYNTH_01 hardware concept](SYNTH_01_UPDATE.webp)_01 hardware concept](SYNTH_01.webp)
+![SYNTH_01 hardware concept](images/SYNTH_01_UPDATE.webp)
 
 The image above is the current hardware concept: a 4 x 5  performance grid, dedicated chord controls, seven encoders for scale, voicing, tempo... plus an OLED display for the current musical state.
+
+![PCB schematic](images/PCB_SCH%201%20of%201.webp)
+
+The PCB schematic above covers the current hardware design for the synth.
 
 ## Current state
 
