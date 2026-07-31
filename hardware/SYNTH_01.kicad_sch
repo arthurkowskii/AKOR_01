@@ -6548,7 +6548,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nf"
+		(property "Value" "100nF"
 			(at 99.06 35.5599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11357,7 +11357,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "D"
+		(property "Value" "1N4148"
 			(at 45.72 193.0399 90)
 			(show_name no)
 			(do_not_autoplace no)
