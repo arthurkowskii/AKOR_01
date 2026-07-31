@@ -6559,7 +6559,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
 			(at 96.2152 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -7368,7 +7368,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
 			(at 242.2652 50.8 0)
 			(hide yes)
 			(show_name no)
