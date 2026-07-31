@@ -6213,7 +6213,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 107.95 185.42 0)
 			(hide yes)
 			(show_name no)
@@ -6293,7 +6293,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 57.15 185.42 0)
 			(hide yes)
 			(show_name no)
@@ -6477,7 +6477,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 82.55 185.42 0)
 			(hide yes)
 			(show_name no)
@@ -6639,7 +6639,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 57.15 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -6797,7 +6797,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 107.95 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -7206,7 +7206,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 107.95 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -7286,7 +7286,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 133.35 185.42 0)
 			(hide yes)
 			(show_name no)
@@ -7448,7 +7448,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 82.55 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -7696,7 +7696,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 82.55 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -8550,7 +8550,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 107.95 160.02 0)
 			(hide yes)
 			(show_name no)
@@ -8630,7 +8630,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 133.35 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -8799,7 +8799,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 57.15 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -8879,7 +8879,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 133.35 160.02 0)
 			(hide yes)
 			(show_name no)
@@ -8959,7 +8959,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 133.35 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -9143,7 +9143,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 82.55 160.02 0)
 			(hide yes)
 			(show_name no)
@@ -9977,7 +9977,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 40.64 185.42 0)
 			(hide yes)
 			(show_name no)
@@ -10213,7 +10213,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 57.15 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -10816,7 +10816,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 82.55 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -11208,7 +11208,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 57.15 160.02 0)
 			(hide yes)
 			(show_name no)
@@ -11470,7 +11470,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 133.35 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -12124,7 +12124,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 107.95 109.22 0)
 			(hide yes)
 			(show_name no)
