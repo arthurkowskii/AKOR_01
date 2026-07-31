@@ -4,13 +4,17 @@ SYNTH_01 is a compact hardware controller for playing notes, chords, and simple 
 
 ![SYNTH_01 hardware concept](images/SYNTH_01_UPDATE.webp)
 
+![PCB schematic](images/PCB_SCH_2026-07-31.png)
+
+The PCB schematic above covers the current hardware design for the synth.
+
 The confirmed V0 interface contains a 4 × 5 performance grid plus Shift (21 MX switches total), seven push encoders, and an OLED display.
 
 ## Architecture locked on 2026-07-31
 
-**V0 is an independent USB-MIDI controller based on Raspberry Pi Pico 2 H.** It does not contain a Raspberry Pi 4 or an audio engine.
+**V0 is an independent USB-MIDI controller based on Raspberry Pi Pico 2 H.**
 
-The future standalone synthesizer is a separate V2 project that may use the existing Raspberry Pi 4 and a Linux audio stack. V2 is intentionally not a compatibility constraint for the V0 PCB.
+A future standalone synthesizer is a separate V2 project. V2 is intentionally not a compatibility constraint for the V0 PCB.
 
 ### V0 hardware target
 
@@ -19,7 +23,6 @@ The future standalone synthesizer is a separate V2 project that may use the exis
 - 7 bare EC11-style encoders with integrated push switches;
 - 1 × MCP23017 I²C GPIO expander;
 - 1 × SSD1306-compatible I²C OLED module;
-- no Raspberry Pi 4 GPIO header;
 - no onboard audio or DSP output stage.
 
 The intended signal allocation is:
@@ -29,8 +32,6 @@ The intended signal allocation is:
 - matrix rows/columns plus six encoder push switches: one MCP23017;
 - OLED and MCP23017: shared 3.3 V I²C bus;
 - USB: Pico 2 H onboard micro-USB, carrying power and class-compliant MIDI.
-
-The current KiCad schematic still represents the obsolete Raspberry Pi 4 HAT architecture with two MCP23017s. It must be refactored in eeschema before PCB work. See `hardware/COMPONENT_HANDOFF.md` for the exact next-session plan.
 
 ## Software state
 
@@ -46,4 +47,4 @@ That offline audio work is preserved for the separate V2. The V0 software goal i
 
 ## Fabrication status
 
-Do not start PCB placement or routing yet. The electrical refactor, ERC/netlist review, component measurements, exact OLED pinout, Pico socket geometry, and footprints must be validated first.
+Do not start PCB placement or routing yet. The ERC/netlist review, component measurements, exact OLED pinout, Pico socket geometry, and footprints must be validated first.
