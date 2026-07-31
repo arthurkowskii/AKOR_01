@@ -5773,7 +5773,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P10.16mm_Horizontal"
 			(at 59.69 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -5877,7 +5877,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P10.16mm_Horizontal"
 			(at 135.89 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -6375,7 +6375,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P10.16mm_Horizontal"
 			(at 59.69 166.37 0)
 			(hide yes)
 			(show_name no)
@@ -7778,7 +7778,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P10.16mm_Horizontal"
 			(at 110.49 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -8362,7 +8362,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P10.16mm_Horizontal"
 			(at 59.69 191.77 0)
 			(hide yes)
 			(show_name no)
@@ -9041,7 +9041,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P10.16mm_Horizontal"
 			(at 110.49 166.37 0)
 			(hide yes)
 			(show_name no)
@@ -9578,7 +9578,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P10.16mm_Horizontal"
 			(at 110.49 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -9682,7 +9682,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P10.16mm_Horizontal"
 			(at 85.09 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -9786,7 +9786,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P10.16mm_Horizontal"
 			(at 59.69 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -10714,7 +10714,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P10.16mm_Horizontal"
 			(at 85.09 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -10898,7 +10898,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P10.16mm_Horizontal"
 			(at 85.09 191.77 0)
 			(hide yes)
 			(show_name no)
@@ -11002,7 +11002,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P10.16mm_Horizontal"
 			(at 135.89 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -11106,7 +11106,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P10.16mm_Horizontal"
 			(at 85.09 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -11368,7 +11368,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P10.16mm_Horizontal"
 			(at 43.18 191.77 0)
 			(hide yes)
 			(show_name no)
@@ -11552,7 +11552,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P10.16mm_Horizontal"
 			(at 85.09 166.37 0)
 			(hide yes)
 			(show_name no)
@@ -11656,7 +11656,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P10.16mm_Horizontal"
 			(at 135.89 191.77 0)
 			(hide yes)
 			(show_name no)
@@ -11839,7 +11839,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P10.16mm_Horizontal"
 			(at 110.49 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -11943,7 +11943,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P10.16mm_Horizontal"
 			(at 135.89 166.37 0)
 			(hide yes)
 			(show_name no)
@@ -12206,7 +12206,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P10.16mm_Horizontal"
 			(at 110.49 191.77 0)
 			(hide yes)
 			(show_name no)
@@ -12310,7 +12310,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P10.16mm_Horizontal"
 			(at 59.69 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -12414,7 +12414,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P10.16mm_Horizontal"
 			(at 135.89 115.57 0)
 			(hide yes)
 			(show_name no)
