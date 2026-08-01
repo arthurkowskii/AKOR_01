@@ -666,7 +666,7 @@
         "uuid": "a11cb849-b279-43af-97e4-3895bded6f2b"
       }
     ],
-    "used_designators": "SW21-27,ENC7,#PWR3,#PWR5-25,D21-22,U2-4,R2,#FLG1-2,C2-3,J2-3,A1",
+    "used_designators": "SW21-27,ENC7,#PWR3,#PWR5-25,D21-41,U2-4,R2-3,#FLG1-2,C2-24,J2-3,A1",
     "variants": []
   },
   "sheets": [

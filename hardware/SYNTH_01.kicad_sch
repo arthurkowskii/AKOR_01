@@ -3274,26 +3274,6 @@
 		)
 		(uuid "2e9e3479-7e08-4dae-81b3-65168334345d")
 	)
-	(text "reçoit le ground\ndu circuit"
-		(exclude_from_sim no)
-		(at 212.852 -27.432 0)
-		(effects
-			(font
-				(size 1.016 1.016)
-			)
-		)
-		(uuid "312ff0eb-e3ec-4616-ac17-dc1ba7d00eae")
-	)
-	(text "fonctionnement du bus"
-		(exclude_from_sim no)
-		(at -24.638 -3.302 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "43a20c17-c484-4f63-8f14-8e8d1adb5483")
-	)
 	(text "U1 est un expandeur rajoutant 16 GPIO au raspberry pi.\nIls communiquent tous les deux via le language I2C"
 		(exclude_from_sim no)
 		(at 253.238 21.844 0)
@@ -5172,16 +5152,6 @@
 		)
 		(uuid "57d3b157-7bc4-4d53-b383-5438a951e903")
 	)
-	(label "LED_5V"
-		(at 195.58 17.78 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "58124b2c-0cdb-480c-9d52-0ec5fcd8a3ed")
-	)
 	(label "E1_SW"
 		(at 269.24 60.96 0)
 		(effects
@@ -5351,16 +5321,6 @@
 			(justify left bottom)
 		)
 		(uuid "909688f4-dad9-4d5e-82f4-d76e1e72d905")
-	)
-	(label "LED_DATA"
-		(at 219.71 48.26 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "930d97b5-f60e-413a-b3e7-c86bd6aa5578")
 	)
 	(label "GND"
 		(at 237.49 76.2 0)
@@ -5691,6 +5651,54 @@
 			(justify left bottom)
 		)
 		(uuid "fc2f75f0-b9ea-45d0-b87c-5c43b683dd44")
+	)
+	(global_label "LED_5V"
+		(shape input)
+		(at 195.58 17.78 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a1052316-7dc2-46a3-9a95-96864a77a9d1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 195.58 8.082 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "LED_DATA"
+		(shape input)
+		(at 219.71 48.26 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ed8d6b4e-5b86-40a6-bd8d-ecdbe4f90bb7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 231.5247 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:GND")
