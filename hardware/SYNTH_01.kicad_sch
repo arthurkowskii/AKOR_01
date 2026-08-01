@@ -3556,10 +3556,6 @@
 		(uuid "3a0a2a43-0cdb-47fa-9df1-a90bb603e8de")
 	)
 	(no_connect
-		(at 218.44 48.26)
-		(uuid "3d7a7c4f-1319-4cdb-96b5-c2188fffbfb6")
-	)
-	(no_connect
 		(at 218.44 60.96)
 		(uuid "3f8b5d31-56ce-4abb-b26b-04a5d5dedeb1")
 	)
@@ -3578,10 +3574,6 @@
 	(no_connect
 		(at 242.57 53.34)
 		(uuid "5d9f5685-bb28-4fa9-8afd-91bd51ddd909")
-	)
-	(no_connect
-		(at 195.58 20.32)
-		(uuid "5ed0672b-a204-404b-94ed-7b8cf5293d3e")
 	)
 	(no_connect
 		(at 218.44 66.04)
@@ -4367,6 +4359,16 @@
 	)
 	(wire
 		(pts
+			(xy 195.58 17.78) (xy 195.58 20.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "afe0485d-61fe-4c21-a545-5755d58bd031")
+	)
+	(wire
+		(pts
 			(xy 24.13 95.25) (xy 30.48 95.25)
 		)
 		(stroke
@@ -4797,6 +4799,16 @@
 	)
 	(wire
 		(pts
+			(xy 218.44 48.26) (xy 219.71 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f458f263-90cc-41b1-a10c-6dcf84538534")
+	)
+	(wire
+		(pts
 			(xy 241.3 31.75) (xy 255.27 31.75)
 		)
 		(stroke
@@ -5160,6 +5172,16 @@
 		)
 		(uuid "57d3b157-7bc4-4d53-b383-5438a951e903")
 	)
+	(label "LED_5V"
+		(at 195.58 17.78 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "58124b2c-0cdb-480c-9d52-0ec5fcd8a3ed")
+	)
 	(label "E1_SW"
 		(at 269.24 60.96 0)
 		(effects
@@ -5329,6 +5351,16 @@
 			(justify left bottom)
 		)
 		(uuid "909688f4-dad9-4d5e-82f4-d76e1e72d905")
+	)
+	(label "LED_DATA"
+		(at 219.71 48.26 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "930d97b5-f60e-413a-b3e7-c86bd6aa5578")
 	)
 	(label "GND"
 		(at 237.49 76.2 0)

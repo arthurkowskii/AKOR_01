@@ -659,15 +659,24 @@
         "filename": "SYNTH_01.kicad_sch",
         "name": "SYNTH_01",
         "uuid": "8736209f-7c7b-4c76-92ee-96040748110a"
+      },
+      {
+        "filename": "rgb.kicad_sch",
+        "name": "RGB",
+        "uuid": "a11cb849-b279-43af-97e4-3895bded6f2b"
       }
     ],
-    "used_designators": "SW21-27,ENC7,#PWR3,#PWR5-25,D21,U2-4,R2,#FLG1-2,C2-3,J2-3,A1",
+    "used_designators": "SW21-27,ENC7,#PWR3,#PWR5-25,D21-22,U2-4,R2,#FLG1-2,C2-3,J2-3,A1",
     "variants": []
   },
   "sheets": [
     [
       "8736209f-7c7b-4c76-92ee-96040748110a",
       "SYNTH_01"
+    ],
+    [
+      "a11cb849-b279-43af-97e4-3895bded6f2b",
+      "RGB"
     ]
   ],
   "text_variables": {},
