@@ -2,11 +2,15 @@
 
 SYNTH_01 is a compact hardware controller for playing notes, chords, and simple sequences.
 
-![SYNTH_01 hardware concept](images/SYNTH_01_UPDATE.webp)
+## PCB preview
 
-![PCB schematic](images/PCB_SCH_2026-07-31.png)
+### Front
 
-The PCB schematic above covers the current hardware design for the synth.
+![SYNTH_01 PCB front](images/SYNTH_01_PCB_FRONT.png)
+
+### Back
+
+![SYNTH_01 PCB back](images/SYNTH_01_PCB_BACK.png)
 
 The confirmed V0 interface contains a 4 × 5 performance grid plus Shift (21 MX switches total), seven push encoders, and an OLED display.
 
@@ -47,4 +51,6 @@ That offline audio work is preserved for the separate V2. The V0 software goal i
 
 ## Fabrication status
 
-Do not start PCB placement or routing yet. The ERC/netlist review, component measurements, exact OLED pinout, Pico socket geometry, and footprints must be validated first.
+The PCB is routed and the latest KiCad DRC reports zero electrical errors and zero unconnected items after refilling zones. Eighteen non-blocking warnings remain around silkscreen placement and one library-footprint mismatch.
+
+Do not send the board for fabrication until the final manufacturing review has checked the remaining warnings, reverse-mount geometry, solder-mask and courtyard clearances, board edges, mechanical fit, and Gerber/drill outputs.
