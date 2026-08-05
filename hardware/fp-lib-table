@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "SYNTH_01_fp")(type "KiCad")(uri "${KIPRJMOD}/SYNTH_01_fp.pretty")(options "")(descr "SYNTH_01 local footprints (MIDI DIN5)"))
+)
