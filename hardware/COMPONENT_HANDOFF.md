@@ -1,9 +1,9 @@
-# SYNTH_01 — PCB handoff
+# AKOR_01 — PCB handoff
 
 **Updated:** 2026-07-31
 
 This file is the local handoff for the next Codex session. The live Notion page
-`SYNTH_01` and its database `Composants SYNTH_01` remain the purchasing and
+`AKOR_01` and its database `Composants AKOR_01` remain the purchasing and
 decision source of truth.
 
 ## Authoritative V0 scope
@@ -22,7 +22,7 @@ V0. They belong to a later V2 and must not constrain this PCB.
 
 ## Verified electrical checkpoint
 
-The electrical schematic is complete in `hardware/SYNTH_01.kicad_sch`.
+The electrical schematic is complete in `hardware/AKOR_01.kicad_sch`.
 
 - Pico: `GP0=SDA`, `GP1=SCL`, `GP2...GP15=E1_A/B...E7_A/B`,
   `GP16=E7_SW`.
@@ -31,7 +31,7 @@ The electrical schematic is complete in `hardware/SYNTH_01.kicad_sch`.
 - OLED connector: `J2.1=GND`, `J2.2=+3V3`, `J2.3=SCL`, `J2.4=SDA`.
 - The last electrical checkpoint is commit `8ba3745`.
 - The schematic title block currently says `AKOR_01_SCH`; the repository and
-  project remain named `SYNTH_01`.
+  project remain named `AKOR_01`.
 
 Arthur performs schematic and PCB edits in KiCad. Do not rewrite `.kicad_sch`
 or `.kicad_pcb` by script.
@@ -66,7 +66,7 @@ intentional; measure the received body before fabrication.
 
 ## Current PCB state
 
-`hardware/SYNTH_01.kicad_pcb` is still effectively empty:
+`hardware/AKOR_01.kicad_pcb` is still effectively empty:
 
 - no imported footprints;
 - no board outline;

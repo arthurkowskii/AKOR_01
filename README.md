@@ -1,10 +1,10 @@
-# SYNTH_01
+# AKOR_01
 
-SYNTH_01 is a compact hardware controller for playing notes, chords, and simple sequences.
+AKOR_01 is a compact hardware controller for playing notes, chords, and simple sequences.
 
-![SYNTH_01 NO_LED PCB — component side](images/PCB_NO_LED_TOP.png)
+![AKOR_01 NO_LED PCB — component side](images/PCB_NO_LED_TOP.png)
 
-![SYNTH_01 NO_LED PCB — solder side](images/PCB_NO_LED_BOTTOM.png)
+![AKOR_01 NO_LED PCB — solder side](images/PCB_NO_LED_BOTTOM.png)
 
 These renders show the current NO_LED PCB revision: the RGB subsystem is absent, the matrix and encoder controls are routed, and the diode matrix is on the solder side.
 
