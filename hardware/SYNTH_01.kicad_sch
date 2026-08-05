@@ -12524,6 +12524,52 @@
 			)
 		)
 	)
+	(sheet
+		(at 303.53 0)
+		(size 303.53 210.82)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "1420ad9a-5977-4337-b389-5ecb86108aa5")
+		(property "Sheetname" "RGB"
+			(at 303.53 -0.7116 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "rgb.kicad_sch"
+			(at 303.53 211.4046 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "SYNTH_01"
+				(path "/8736209f-7c7b-4c76-92ee-96040748110a"
+					(page "2")
+				)
+			)
+		)
+	)
 	(sheet_instances
 		(path "/"
 			(page "1")
