@@ -488,7 +488,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "SYNTH_01.kicad_pro",
+    "filename": "AKOR_01.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -656,8 +656,8 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "SYNTH_01.kicad_sch",
-        "name": "SYNTH_01",
+        "filename": "AKOR_01.kicad_sch",
+        "name": "AKOR_01",
         "uuid": "8736209f-7c7b-4c76-92ee-96040748110a"
       }
     ],
@@ -667,7 +667,7 @@
   "sheets": [
     [
       "8736209f-7c7b-4c76-92ee-96040748110a",
-      "SYNTH_01"
+      "AKOR_01"
     ]
   ],
   "text_variables": {},
