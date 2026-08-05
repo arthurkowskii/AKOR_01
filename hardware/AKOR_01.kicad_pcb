@@ -254,7 +254,7 @@
 		)
 		(path "/c6b2a7d9-2468-4c21-b348-8c0d18f0fc0e")
 		(sheetname "/")
-		(sheetfile "SYNTH_01.kicad_sch")
+		(sheetfile "AKOR_01.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -546,7 +546,7 @@
 		)
 		(path "/1e52e0a4-d277-41a2-b42a-b1c67d40fa86")
 		(sheetname "/")
-		(sheetfile "SYNTH_01.kicad_sch")
+		(sheetfile "AKOR_01.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -838,7 +838,7 @@
 		)
 		(path "/1df2b0ec-b0dd-4928-a7a5-87cebb249bdf")
 		(sheetname "/")
-		(sheetfile "SYNTH_01.kicad_sch")
+		(sheetfile "AKOR_01.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -1131,7 +1131,7 @@
 		(property ki_fp_filters "RotaryEncoder*Switch*")
 		(path "/aee94791-0f31-451b-81a8-d8ff49d2ecc1")
 		(sheetname "/")
-		(sheetfile "SYNTH_01.kicad_sch")
+		(sheetfile "AKOR_01.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -1668,7 +1668,7 @@
 		(property ki_fp_filters "DIP*W7.62mm*")
 		(path "/ab7cf75d-ff5d-437b-bce5-c4e8dcfbcfc7")
 		(sheetname "/")
-		(sheetfile "SYNTH_01.kicad_sch")
+		(sheetfile "AKOR_01.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -2218,7 +2218,7 @@
 		)
 		(path "/8adcf9df-5cc3-4a6c-92fc-cb3f30d36460")
 		(sheetname "/")
-		(sheetfile "SYNTH_01.kicad_sch")
+		(sheetfile "AKOR_01.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -2510,7 +2510,7 @@
 		)
 		(path "/a6361cfd-ad2e-4c2b-972e-28ffb9f68408")
 		(sheetname "/")
-		(sheetfile "SYNTH_01.kicad_sch")
+		(sheetfile "AKOR_01.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -2803,7 +2803,7 @@
 		(property ki_fp_filters "RotaryEncoder*Switch*")
 		(path "/5e4a6b85-5d26-4d9a-a1e1-e4f00e03650f")
 		(sheetname "/")
-		(sheetfile "SYNTH_01.kicad_sch")
+		(sheetfile "AKOR_01.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -3225,7 +3225,7 @@
 		)
 		(path "/7df6559e-fa66-4c6c-80f4-814a9e55d46c")
 		(sheetname "/")
-		(sheetfile "SYNTH_01.kicad_sch")
+		(sheetfile "AKOR_01.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -3517,7 +3517,7 @@
 		)
 		(path "/d98987db-ab12-4f91-b5ce-c59bde8e08bb")
 		(sheetname "/")
-		(sheetfile "SYNTH_01.kicad_sch")
+		(sheetfile "AKOR_01.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -3809,7 +3809,7 @@
 		)
 		(path "/83eae546-a2e7-4132-b0b4-acb72181946f")
 		(sheetname "/")
-		(sheetfile "SYNTH_01.kicad_sch")
+		(sheetfile "AKOR_01.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -4292,7 +4292,7 @@
 		)
 		(path "/47d72814-60b8-46aa-bd92-37a9365e1df4")
 		(sheetname "/")
-		(sheetfile "SYNTH_01.kicad_sch")
+		(sheetfile "AKOR_01.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -4585,7 +4585,7 @@
 		(property ki_fp_filters "RotaryEncoder*Switch*")
 		(path "/8071f15c-a2cc-477e-9970-4a791a6c8753")
 		(sheetname "/")
-		(sheetfile "SYNTH_01.kicad_sch")
+		(sheetfile "AKOR_01.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -5016,7 +5016,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/27235610-5c3b-420c-a2a4-09943bdbc692")
 		(sheetname "/")
-		(sheetfile "SYNTH_01.kicad_sch")
+		(sheetfile "AKOR_01.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -5210,7 +5210,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/7cfb719a-e752-4b84-a6dc-976260e1422c")
 		(sheetname "/")
-		(sheetfile "SYNTH_01.kicad_sch")
+		(sheetfile "AKOR_01.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -5544,7 +5544,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/45c767ae-1a96-4569-aaa9-352aad6ce428")
 		(sheetname "/")
-		(sheetfile "SYNTH_01.kicad_sch")
+		(sheetfile "AKOR_01.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -5726,7 +5726,7 @@
 		)
 		(path "/851d35c3-df38-4686-acbd-e399b999008c")
 		(sheetname "/")
-		(sheetfile "SYNTH_01.kicad_sch")
+		(sheetfile "AKOR_01.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -6018,7 +6018,7 @@
 		)
 		(path "/867c34e7-7b14-41bc-8792-777d767abe62")
 		(sheetname "/")
-		(sheetfile "SYNTH_01.kicad_sch")
+		(sheetfile "AKOR_01.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -6310,7 +6310,7 @@
 		)
 		(path "/4888cdfc-8dd3-458b-b960-5e5d4203aa41")
 		(sheetname "/")
-		(sheetfile "SYNTH_01.kicad_sch")
+		(sheetfile "AKOR_01.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -6602,7 +6602,7 @@
 		)
 		(path "/f5c4a9d3-75e6-48b9-80c0-dd4008d94f8e")
 		(sheetname "/")
-		(sheetfile "SYNTH_01.kicad_sch")
+		(sheetfile "AKOR_01.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -6894,7 +6894,7 @@
 		)
 		(path "/29803d55-9aaa-4ef0-aea7-135face74b7d")
 		(sheetname "/")
-		(sheetfile "SYNTH_01.kicad_sch")
+		(sheetfile "AKOR_01.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -7186,7 +7186,7 @@
 		)
 		(path "/5824cca8-23e2-4be7-b524-20fea30fc22f")
 		(sheetname "/")
-		(sheetfile "SYNTH_01.kicad_sch")
+		(sheetfile "AKOR_01.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -7478,7 +7478,7 @@
 		)
 		(path "/28cc62f5-7f82-4f5d-ac63-aff35fb080fc")
 		(sheetname "/")
-		(sheetfile "SYNTH_01.kicad_sch")
+		(sheetfile "AKOR_01.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -7876,7 +7876,7 @@
 		)
 		(path "/a403ce10-7e31-4e12-b241-b10b6a30f1d8")
 		(sheetname "/")
-		(sheetfile "SYNTH_01.kicad_sch")
+		(sheetfile "AKOR_01.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -8168,7 +8168,7 @@
 		)
 		(path "/7d309144-4e70-4618-b5d6-317c8124593f")
 		(sheetname "/")
-		(sheetfile "SYNTH_01.kicad_sch")
+		(sheetfile "AKOR_01.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -8469,7 +8469,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/56855534-d9ec-4a9a-ad17-90d450df788a")
 		(sheetname "/")
-		(sheetfile "SYNTH_01.kicad_sch")
+		(sheetfile "AKOR_01.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -8652,7 +8652,7 @@
 		(property ki_fp_filters "RotaryEncoder*Switch*")
 		(path "/bcc83b96-23e3-44f2-b510-ced751d611b6")
 		(sheetname "/")
-		(sheetfile "SYNTH_01.kicad_sch")
+		(sheetfile "AKOR_01.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -9083,7 +9083,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/4b4b4b94-2b3f-4753-a43d-be8c1a2318c1")
 		(sheetname "/")
-		(sheetfile "SYNTH_01.kicad_sch")
+		(sheetfile "AKOR_01.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -9742,7 +9742,7 @@
 		)
 		(path "/cc9dcff7-882d-41ed-b53a-af98844897b4")
 		(sheetname "/")
-		(sheetfile "SYNTH_01.kicad_sch")
+		(sheetfile "AKOR_01.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -10234,7 +10234,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/1cec058a-0d04-4a6f-acea-027abde28d91")
 		(sheetname "/")
-		(sheetfile "SYNTH_01.kicad_sch")
+		(sheetfile "AKOR_01.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -10416,7 +10416,7 @@
 		)
 		(path "/216276c9-ec0e-480c-8d08-7115dbfbd6bb")
 		(sheetname "/")
-		(sheetfile "SYNTH_01.kicad_sch")
+		(sheetfile "AKOR_01.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -10708,7 +10708,7 @@
 		)
 		(path "/6639a370-1291-4c8e-9874-126244cd0275")
 		(sheetname "/")
-		(sheetfile "SYNTH_01.kicad_sch")
+		(sheetfile "AKOR_01.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -11001,7 +11001,7 @@
 		(property ki_fp_filters "RotaryEncoder*Switch*")
 		(path "/39b376e5-93aa-4a9a-a677-4da27c91908c")
 		(sheetname "/")
-		(sheetfile "SYNTH_01.kicad_sch")
+		(sheetfile "AKOR_01.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -11425,7 +11425,7 @@
 		(property ki_fp_filters "RotaryEncoder*Switch*")
 		(path "/9ec50a95-37f9-440a-b18f-bcf45ffb5901")
 		(sheetname "/")
-		(sheetfile "SYNTH_01.kicad_sch")
+		(sheetfile "AKOR_01.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -11848,7 +11848,7 @@
 		(property ki_fp_filters "RotaryEncoder*Switch*")
 		(path "/6e5d7b8a-2bd2-4fbd-82a7-a337e9aa0446")
 		(sheetname "/")
-		(sheetfile "SYNTH_01.kicad_sch")
+		(sheetfile "AKOR_01.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -12272,7 +12272,7 @@
 		(property ki_fp_filters "RaspberryPi?Pico?Common* RaspberryPi?Pico?SMD*")
 		(path "/92e4cf18-0df4-4083-bd1d-909f83fa60cf")
 		(sheetname "/")
-		(sheetfile "SYNTH_01.kicad_sch")
+		(sheetfile "AKOR_01.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -13875,7 +13875,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/10e94951-704a-4012-bf6f-ccbf054c01ed")
 		(sheetname "/")
-		(sheetfile "SYNTH_01.kicad_sch")
+		(sheetfile "AKOR_01.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -14187,7 +14187,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/ca29a284-508c-469b-8e47-a04564b0e43d")
 		(sheetname "/")
-		(sheetfile "SYNTH_01.kicad_sch")
+		(sheetfile "AKOR_01.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -14499,7 +14499,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/dd785af4-d3de-4205-9014-64479796841f")
 		(sheetname "/")
-		(sheetfile "SYNTH_01.kicad_sch")
+		(sheetfile "AKOR_01.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -14811,7 +14811,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/c8e954f4-3736-4485-8422-c68441dba5a8")
 		(sheetname "/")
-		(sheetfile "SYNTH_01.kicad_sch")
+		(sheetfile "AKOR_01.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -15123,7 +15123,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/f6977ab8-cc9b-4298-ba68-d7f7e8c6bf89")
 		(sheetname "/")
-		(sheetfile "SYNTH_01.kicad_sch")
+		(sheetfile "AKOR_01.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -15435,7 +15435,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/6c233ca5-c8ed-4349-ac28-d21d70900514")
 		(sheetname "/")
-		(sheetfile "SYNTH_01.kicad_sch")
+		(sheetfile "AKOR_01.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -15747,7 +15747,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/94d95e20-ed21-4d02-9fcf-7afdc5b9bc4e")
 		(sheetname "/")
-		(sheetfile "SYNTH_01.kicad_sch")
+		(sheetfile "AKOR_01.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -16059,7 +16059,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/cc61ff9f-6025-4184-9c4d-04cc27a6a604")
 		(sheetname "/")
-		(sheetfile "SYNTH_01.kicad_sch")
+		(sheetfile "AKOR_01.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -16371,7 +16371,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/215f2755-b80d-47e5-8652-b8c8782bc2c2")
 		(sheetname "/")
-		(sheetfile "SYNTH_01.kicad_sch")
+		(sheetfile "AKOR_01.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -16683,7 +16683,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/f7e6d28f-b84e-45e7-80d7-ab5ed74305a4")
 		(sheetname "/")
-		(sheetfile "SYNTH_01.kicad_sch")
+		(sheetfile "AKOR_01.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -16995,7 +16995,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/fe1b7c04-3fe1-4e0a-8caa-bf45a978ab94")
 		(sheetname "/")
-		(sheetfile "SYNTH_01.kicad_sch")
+		(sheetfile "AKOR_01.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -17307,7 +17307,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/7c7f9f40-edf8-40c2-9662-6030a6349eaa")
 		(sheetname "/")
-		(sheetfile "SYNTH_01.kicad_sch")
+		(sheetfile "AKOR_01.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -17619,7 +17619,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/9a9a44a5-2e3c-4b2d-9025-f9f5fcd4a772")
 		(sheetname "/")
-		(sheetfile "SYNTH_01.kicad_sch")
+		(sheetfile "AKOR_01.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -17931,7 +17931,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/88a65cad-2991-438a-a69c-6f386121dfa4")
 		(sheetname "/")
-		(sheetfile "SYNTH_01.kicad_sch")
+		(sheetfile "AKOR_01.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -18243,7 +18243,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/e2807201-cce1-479f-a494-1ea295633bf7")
 		(sheetname "/")
-		(sheetfile "SYNTH_01.kicad_sch")
+		(sheetfile "AKOR_01.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -18555,7 +18555,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/e6513218-a450-47e7-853e-eab8fb81259e")
 		(sheetname "/")
-		(sheetfile "SYNTH_01.kicad_sch")
+		(sheetfile "AKOR_01.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -18867,7 +18867,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/10369c68-88e9-4021-8f7a-1c155c9e319e")
 		(sheetname "/")
-		(sheetfile "SYNTH_01.kicad_sch")
+		(sheetfile "AKOR_01.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -19179,7 +19179,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/bdc65b7f-7071-4152-976c-5a754db84a98")
 		(sheetname "/")
-		(sheetfile "SYNTH_01.kicad_sch")
+		(sheetfile "AKOR_01.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -19491,7 +19491,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/9ae27fcd-0b53-4b07-b591-c8fb56b10660")
 		(sheetname "/")
-		(sheetfile "SYNTH_01.kicad_sch")
+		(sheetfile "AKOR_01.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -19803,7 +19803,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/f11877f2-2592-4009-8698-ddb6555dbec0")
 		(sheetname "/")
-		(sheetfile "SYNTH_01.kicad_sch")
+		(sheetfile "AKOR_01.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -20115,7 +20115,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/d2514748-79cd-44f3-af8a-ed7f9aea6635")
 		(sheetname "/")
-		(sheetfile "SYNTH_01.kicad_sch")
+		(sheetfile "AKOR_01.kicad_sch")
 		(units
 			(unit
 				(name "A")
