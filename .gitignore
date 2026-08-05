@@ -1,1 +1,6 @@
 SOCIAL
+
+# KiCad session and lock files are machine-local and not fabrication inputs.
+hardware/*.kicad_prl
+hardware/*.lck
+hardware/.history/
