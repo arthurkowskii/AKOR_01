@@ -1,16 +1,16 @@
-# SYNTH_01
+# AKOR_01
 
-SYNTH_01 is a compact hardware controller for playing notes, chords, and simple sequences.
+AKOR_01 is a compact hardware controller for playing notes, chords, and simple sequences.
 
 ## PCB preview
 
 ### Front
 
-![SYNTH_01 PCB front](images/SYNTH_01_PCB_FRONT.png)
+![AKOR_01 PCB front](images/AKOR_01_PCB_FRONT.png)
 
 ### Back
 
-![SYNTH_01 PCB back](images/SYNTH_01_PCB_BACK.png)
+![AKOR_01 PCB back](images/AKOR_01_PCB_BACK.png)
 
 The confirmed V0 interface contains a 4 × 5 performance grid plus Shift (21 MX switches total), seven push encoders, and an OLED display.
 
