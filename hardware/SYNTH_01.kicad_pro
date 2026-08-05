@@ -692,13 +692,17 @@
         "uuid": "8736209f-7c7b-4c76-92ee-96040748110a"
       }
     ],
-    "used_designators": "SW21-27,ENC7,#PWR3,#PWR5-25,D21,U2-4,R2,#FLG1-2,C2-3,J2-3,A1",
+    "used_designators": "SW21-27,ENC7,#PWR3,#PWR5-25,D21-61,U2-4,R2-5,#FLG1-2,C2-46,J2-3,A1",
     "variants": []
   },
   "sheets": [
     [
       "8736209f-7c7b-4c76-92ee-96040748110a",
       "SYNTH_01"
+    ],
+    [
+      "1420ad9a-5977-4337-b389-5ecb86108aa5",
+      "RGB"
     ]
   ],
   "text_variables": {},

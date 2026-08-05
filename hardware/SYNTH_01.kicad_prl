@@ -21,7 +21,7 @@
       "footprints": true,
       "graphics": true,
       "keepouts": true,
-      "lockedItems": false,
+      "lockedItems": true,
       "otherItems": true,
       "pads": true,
       "text": true,
@@ -32,6 +32,7 @@
     "visible_items": [
       "vias",
       "footprint_text",
+      "ratsnest",
       "grid",
       "footprints_front",
       "footprints_back",
@@ -45,7 +46,7 @@
       "shapes",
       "board_outline_area"
     ],
-    "visible_layers": "ffffffff_ffffffff_fffffff5_dd575fff",
+    "visible_layers": "00000000_00000000_55555555_d755ffad",
     "zone_display_mode": 0
   },
   "git": {
@@ -69,6 +70,8 @@
       false,
       false,
       false,
+      false,
+      false,
       false
     ],
     "col_order": [
@@ -81,19 +84,23 @@
       6,
       7,
       8,
-      9
+      9,
+      10,
+      11
     ],
     "col_widths": [
-      162,
-      147,
-      102,
-      99,
-      101,
-      132,
-      98,
-      103,
-      91,
-      91
+      486,
+      441,
+      273,
+      201,
+      273,
+      273,
+      273,
+      213,
+      273,
+      273,
+      273,
+      273
     ],
     "custom_group_rules": [],
     "expanded_rows": [],
