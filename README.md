@@ -2,11 +2,11 @@
 
 SYNTH_01 is a compact hardware controller for playing notes, chords, and simple sequences.
 
-![SYNTH_01 hardware concept](images/SYNTH_01_UPDATE.webp)
+![SYNTH_01 NO_LED PCB — component side](images/PCB_NO_LED_TOP.png)
 
-![PCB schematic](images/PCB_SCH_2026-07-31.png)
+![SYNTH_01 NO_LED PCB — solder side](images/PCB_NO_LED_BOTTOM.png)
 
-The PCB schematic above covers the current hardware design for the synth.
+These renders show the current NO_LED PCB revision: the RGB subsystem is absent, the matrix and encoder controls are routed, and the diode matrix is on the solder side.
 
 The confirmed V0 interface contains a 4 × 5 performance grid plus Shift (21 MX switches total), seven push encoders, and an OLED display.
 
@@ -47,4 +47,4 @@ That offline audio work is preserved for the separate V2. The V0 software goal i
 
 ## Fabrication status
 
-Do not start PCB placement or routing yet. The ERC/netlist review, component measurements, exact OLED pinout, Pico socket geometry, and footprints must be validated first.
+The NO_LED PCB layout has completed its routing and DRC checkpoint. It still requires a mechanical review and Gerber/NC Drill inspection before any fabrication order.
