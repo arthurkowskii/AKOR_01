@@ -1,8 +1,8 @@
-# SYNTH_01
+# AKOR_01
 
-SYNTH_01 is a compact hardware controller for playing notes, chords, and simple sequences.
+AKOR_01 is a compact hardware controller for playing notes, chords, and simple sequences.
 
-![SYNTH_01 hardware concept](images/SYNTH_01_UPDATE.webp)
+![AKOR_01 hardware concept](images/AKOR_01_UPDATE.webp)
 
 ![PCB schematic](images/PCB_SCH_2026-07-31.png)
 
