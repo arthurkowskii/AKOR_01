@@ -52,5 +52,5 @@ The NO_LED PCB layout has completed its routing and DRC checkpoint. It still req
 ## Repository state (2026-08-08)
 
 - `main` is the **single build source**: NO_LED V0 PCB (incl. MIDI DIN-5) + firmware.
-- The RGB LED add-on work (SK6812MINI-E chain, 74AHCT1G125 buffer, associated SMD passives) is **archived, not part of V0**: see tag `archive/rgb-led` (former branch `rgb-review`, deleted). `archive/no-led-old` preserves the pre-DIN5 NO_LED branch (also deleted).
+- The RGB LED add-on work (SK6812MINI-E chain, 74AHCT1G125 buffer, associated SMD passives) is **archived, not part of V0**: see branch `archive/rgb-led` (commandes RGB, préservée). `archive/no-led-old` preserves the pre-DIN5 NO_LED branch (also deleted).
 - `hardware/BOM_AKOR_01.csv` = buying/assembly list exported from Notion `Composants AKOR_01`, scoped to the NO_LED build only.
