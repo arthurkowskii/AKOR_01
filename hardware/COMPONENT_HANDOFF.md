@@ -1,5 +1,13 @@
 # AKOR_01 — PCB handoff
 
+
+## Archive note (2026-08-08)
+
+The RGB LED chain (SK6812MINI-E, 74AHCT1G125, 470 µF reservoir, 10 kΩ/470 Ω 0805, 21× 100 nF 0805) is **archived and out of V0 scope**.
+- Git: preserved in tag `archive/rgb-led` (branch `rgb-review` deleted 2026-08-08).
+- Notion: those 6 rows are now status `Plus tard`.
+- `hardware/BOM_AKOR_01.csv` lists the NO_LED build only.
+Do not treat any LED chain as build context for the V0 PCB.
 **Updated:** 2026-07-31
 
 This file is the local handoff for the next Codex session. The live Notion page
